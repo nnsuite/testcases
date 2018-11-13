@@ -1,12 +1,12 @@
-Name:		nnsuite-testcases
-Summary:	Testcases of nnsuite for CI testing
-Version:	1.0.0
-Release:	1rc1
-Group:		Development/Tools
-Packager:	MyungJoo Ham <myungjoo.ham@samsung.com>
-License:	Apache-2.0
-Source0:	nnsuite-testcases-%{version}.tar.gz
-BuildArch:	noarch
+Name:      nnsuite-testcases
+Summary:   Testcases of nnsuite for CI testing
+Version:   1.0.0
+Release:   1rc1
+Group:     Development/Tools
+Packager:  MyungJoo Ham <myungjoo.ham@samsung.com>
+License:   Apache-2.0
+Source0:   nnsuite-testcases-%{version}.tar.gz
+BuildArch: noarch
 
 %description
 This package is set of testcases and neural network models for nnsuite packages.
