@@ -9,3 +9,11 @@ A tensorflow model for multibox detection.
 # ssd_mobilenet_v2
 A tensorflow model for multibox detection with label.
 [Download Link](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v2_coco_2018_03_29.tar.gz)
+
+# ssdlite_mobilenet_v2
+A tensorflow model for multibox detection with label.
+[Download Link](http://download.tensorflow.org/models/object_detection/ssdlite_mobilenet_v2_coco_2018_05_09.tar.gz)
+
+# The others
+[tensorflow models](https://github.com/tensorflow/models/tree/master/research)
+[detection_model_zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
