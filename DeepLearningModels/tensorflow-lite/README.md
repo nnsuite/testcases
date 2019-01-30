@@ -11,3 +11,8 @@
 * Model data
   - 300x300 image object SSD(Single Shot Multibox Detection) model
   - more information at [Here](https://github.com/tensorflow/models/tree/master/research/object_detection)
+
+### conv_actions_tflite
+* Model data
+  - Speech command pretrained model ([Audio format](https://developer.android.com/reference/android/media/AudioFormat#ENCODING_PCM_16BIT) 16-bit signed integer, 16k mono pcm)
+  - Downloded from [Here](https://storage.googleapis.com/download.tensorflow.org/models/tflite/conv_actions_tflite.zip)
