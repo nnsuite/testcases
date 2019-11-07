@@ -16,3 +16,9 @@
 * Model data
   - Speech command pretrained model ([Audio format](https://developer.android.com/reference/android/media/AudioFormat#ENCODING_PCM_16BIT) 16-bit signed integer, 16k mono pcm)
   - Downloded from [Here](https://storage.googleapis.com/download.tensorflow.org/models/tflite/conv_actions_tflite.zip)
+
+### add_tflite
+* Model data
+  - Downloaded from [Here](https://review.tizen.org/gerrit/gitweb?p=platform/core/ml/nnfw.git;a=blob;f=nnpackage/examples/one_op_in_tflite/add.tflite;h=e748b6843646a295dfe5e701cf22259bb93adc6e;hb=refs/heads/accepted/tizen_5.5_unified)
+  - Performs basic addition - adds `2.0` to the input data
+  - Supports flexible shape for input data
