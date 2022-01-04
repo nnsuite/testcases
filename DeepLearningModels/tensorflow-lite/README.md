@@ -22,3 +22,8 @@
   - Downloaded from [Here](https://review.tizen.org/gerrit/gitweb?p=platform/core/ml/nnfw.git;a=blob;f=nnpackage/examples/one_op_in_tflite/add.tflite;h=e748b6843646a295dfe5e701cf22259bb93adc6e;hb=refs/heads/accepted/tizen_5.5_unified)
   - Performs basic addition - adds `2.0` to the input data
   - Supports flexible shape for input data
+
+### zero_dce
+* Model data
+  - 400X600 low-light image enhancement model
+  - Downloaded from [Here](https://tfhub.dev/sayannath/lite-model/zero-dce/1)
