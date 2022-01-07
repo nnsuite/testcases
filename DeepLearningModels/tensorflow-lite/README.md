@@ -27,3 +27,11 @@
 * Model data
   - 400X600 low-light image enhancement model
   - Downloaded from [Here](https://tfhub.dev/sayannath/lite-model/zero-dce/1)
+
+### pose estimation
+* Model data
+  - posenet_mobilenet_v1_100_257x257_multi_kpt_stripped.tflite
+  - input[0] >> type:float32, dim[3:257:257:1], video stream (RGB 257x257)
+  - output[0] >> type:float32, dim[17:9:9:1], heat map of 17 key points
+  - output[1] >> type:float32, dim[34:9:9:1], offset vectors
+  - Downloaded from [Here](https://www.tensorflow.org/lite/examples/pose_estimation/overview)
